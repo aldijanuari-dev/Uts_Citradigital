@@ -29,7 +29,7 @@ Pastikan proyek memiliki struktur direktori sebagai berikut:
 MorfologiCitra/
 │
 ├── images/
-│   └── Hirono2.jpeg       ← gambar contoh
+│   └── Hirono2.jpeg     ← gambar contoh
 │
 ├── main.py              ← file utama program
 └── README.md            ← file dokumentasi
