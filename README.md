@@ -6,7 +6,7 @@ Proyek ini bertujuan untuk mempraktikkan materi pertemuan ke-5 mata kuliah Pengo
 
 ## Tujuan
 
-Mahasiswa diharapkan memahami dan mampu menerapkan operasi morfologi dasar, meliputi:
+Untuk memahami dan mampu menerapkan operasi morfologi dasar, meliputi:
 
 * Erosion (erosi)
 * Dilation (dilasi)
@@ -29,7 +29,7 @@ Pastikan proyek memiliki struktur direktori sebagai berikut:
 MorfologiCitra/
 │
 ├── images/
-│   └── sample.jpg       ← gambar contoh
+│   └── Hirono2.jpeg       ← gambar contoh
 │
 ├── main.py              ← file utama program
 └── README.md            ← file dokumentasi
@@ -62,7 +62,7 @@ Digunakan untuk:
 ### 2. Membaca dan Mengonversi Citra
 
 ```python
-image = cv2.imread('images/sample.jpg')
+image = cv2.imread('images/hirono2.jpeg')
 image_gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 ```
 
